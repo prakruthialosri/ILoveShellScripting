@@ -5,7 +5,9 @@ grep -E o\{2} Doraemon.txt       #Matches consicutives oo  ex Cartoonists
 grep -E o\+t Doraemon.txt        #Mratches t precided by o ex. robotic 
 grep \' Doraemon.txt             #Matches ' . use \ to match special character.
 
-
+grep -A 2 "error" log.txt       # Shows 2 lines After match.
+grep -B 3 "error" log.txt       # Shows 2 lines Before  match.
+grep -C 2 "error" log.txt       # Shows 2 lines before and after.
 Extended Regular Expression.
 
  
