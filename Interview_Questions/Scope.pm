@@ -10,7 +10,7 @@ sub Hello
 {
 my $name="pakku";
 local $age=30;
-print "HELLO: $name and $age\n";
+print "Hello: $name and $age\n";
 }
 
 print "main: $name and $age\n";
